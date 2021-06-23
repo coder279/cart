@@ -5,7 +5,7 @@ import (
 	"github.com/coder279/cart/common"
 	"github.com/coder279/cart/domain/model"
 	"github.com/coder279/cart/domain/service"
-	"github.com/coder279/cart/proto/cart"
+	go_micro_service_cart "github.com/coder279/cart/proto/cart"
 )
 type Cart struct{
      CartDataService service.ICartDataService
